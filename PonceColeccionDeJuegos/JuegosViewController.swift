@@ -6,12 +6,21 @@ class JuegosViewController: UIViewController , UIImagePickerControllerDelegate ,
     
     @IBOutlet weak var tituloTextField: UITextField!
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var agregarActualizarBoton: UIButton!
     
     var imagePicker = UIImagePickerController()
+    var juego:Juego? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
+        
+        if juego != nil{
+            imageView.image = UIImage(data: (juego!.image!)as
+            Data)
+            tituloTextField.text = juego!.titulo
+            agregarActualizarBoton.setTitle("Actualizar", for: .normal)
+        }
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {

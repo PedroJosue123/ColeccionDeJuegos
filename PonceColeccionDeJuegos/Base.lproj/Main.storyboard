@@ -34,7 +34,7 @@
                     <navigationItem key="navigationItem" id="I0x-jA-bfP">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="FQb-E7-ZNi">
                             <connections>
-                                <segue destination="rEn-FM-6j6" kind="show" id="oCH-7c-Rdw"/>
+                                <segue destination="rEn-FM-6j6" kind="show" identifier="JuegoSegue" id="oCH-7c-Rdw"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -103,6 +103,7 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="agregarActualizarBoton" destination="sdh-F4-jug" id="cG2-oN-N3a"/>
                         <outlet property="imageView" destination="Tah-ed-RKT" id="P72-zH-PZl"/>
                         <outlet property="tituloTextField" destination="It8-07-EBM" id="8fz-NO-0P7"/>
                     </connections>
