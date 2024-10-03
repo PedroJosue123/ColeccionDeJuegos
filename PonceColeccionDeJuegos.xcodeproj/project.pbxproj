@@ -14,6 +14,7 @@
 		BD92B9C32CADF3C1000052E8 /* PonceColeccionDeJuegos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD92B9C12CADF3C1000052E8 /* PonceColeccionDeJuegos.xcdatamodeld */; };
 		BD92B9C52CADF3C3000052E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD92B9C42CADF3C3000052E8 /* Assets.xcassets */; };
 		BD92B9C82CADF3C3000052E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD92B9C62CADF3C3000052E8 /* LaunchScreen.storyboard */; };
+		BD92B9D02CAE1284000052E8 /* JuegosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92B9CF2CAE1284000052E8 /* JuegosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BD92B9C42CADF3C3000052E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD92B9C72CADF3C3000052E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD92B9C92CADF3C3000052E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD92B9CF2CAE1284000052E8 /* JuegosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				BD92B9C62CADF3C3000052E8 /* LaunchScreen.storyboard */,
 				BD92B9C92CADF3C3000052E8 /* Info.plist */,
 				BD92B9C12CADF3C1000052E8 /* PonceColeccionDeJuegos.xcdatamodeld */,
+				BD92B9CF2CAE1284000052E8 /* JuegosViewController.swift */,
 			);
 			path = PonceColeccionDeJuegos;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD92B9D02CAE1284000052E8 /* JuegosViewController.swift in Sources */,
 				BD92B9BD2CADF3C1000052E8 /* ViewController.swift in Sources */,
 				BD92B9C32CADF3C1000052E8 /* PonceColeccionDeJuegos.xcdatamodeld in Sources */,
 				BD92B9B92CADF3C1000052E8 /* AppDelegate.swift in Sources */,
